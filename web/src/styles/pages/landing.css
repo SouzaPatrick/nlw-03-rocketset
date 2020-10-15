@@ -3,6 +3,9 @@
     height: 100vh;
     background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
 
+    /* Tela tava muito grande - Lia */
+    padding: 50px; 
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +26,9 @@
     justify-content: space-between;
 
     background: url('../../images/landing.svg') no-repeat 80% center;
+
+    /* Tela tava muito grande - Lia */
+    background-size: auto 100%; 
 }
 
 #page-landing .content-wrapper main{

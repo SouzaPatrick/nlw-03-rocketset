@@ -20,3 +20,4 @@ export default {
         return orphanages.map(orphanage => this.render(orphanage));
     }
 };
+
