@@ -57,6 +57,7 @@ export default function CreateOrphanage() {
 
     const { latitude, longitude } = position;
 
+    //Como o envio dos dados nao pode ser um json puro, por conter imagesn eh utilizado o FormData
     const data = new FormData();
     
     data.append('name', name);

@@ -40,4 +40,4 @@
 
 # macOS
 /mobile/.DS_Store
-
+.expo/*
