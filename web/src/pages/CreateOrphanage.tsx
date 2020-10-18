@@ -42,14 +42,15 @@ export default function CreateOrphanage() {
     }
 
     const selectedImages = Array.from(event.target.files);
-
+    
     setImages(selectedImages); //Altera o estado com as novas imagens
 
     const selectedImagesPreview = selectedImages.map(image => {
       return URL.createObjectURL(image);
     });
-
+    console.log(images);
     setPreviewImages(selectedImagesPreview);
+    console.log(previewImages);
   }
 
   async function handleSubmit(event: FormEvent) {
